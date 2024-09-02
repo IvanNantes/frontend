@@ -1,3 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
 .container {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -27,7 +37,7 @@ input {
 
 button {
     padding: 10px;
-    background-color: #28a745;
+    background-color: #a72889;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -35,7 +45,7 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #88217a;
 }
 
 #message {
